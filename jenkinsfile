@@ -9,6 +9,7 @@ pipeline {
         }
         stage('Test') {
             steps {
+                make yaml-test
                 echo 'Testing..'
             }
         }
