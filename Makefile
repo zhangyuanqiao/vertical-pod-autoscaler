@@ -1,5 +1,5 @@
 
 .PHONY: yaml-test
 yaml-functional-test:
-	@helm template .
+	@helm template ./templates/recommender
 
